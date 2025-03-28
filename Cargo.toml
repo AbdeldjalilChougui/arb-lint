@@ -1,0 +1,28 @@
+[package]
+name = "arb-lint"
+version = "0.1.0"
+edition = "2021"
+authors = ["Abdeldjalil Chougui"]
+license = "MIT"
+description = "Linter and formatter for Flutter ARB localization files: keys, placeholders, ICU plural/select, metadata, unused keys, RTL checks, SARIF output"
+keywords = ["flutter", "arb", "i18n", "l10n", "lint"]
+categories = ["command-line-utilities", "development-tools", "internationalization"]
+repository = "https://github.com/AbdeldjalilChougui/arb-lint"
+homepage = "https://github.com/AbdeldjalilChougui/arb-lint"
+readme = "README.md"
+include = ["src/**/*", "Cargo.toml", "Cargo.lock", "README.md", "LICENSE", "CITATION.cff"]
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["preserve_order"] }
+regex = "1"
+
+[dev-dependencies]
+tempfile = "3"
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"
