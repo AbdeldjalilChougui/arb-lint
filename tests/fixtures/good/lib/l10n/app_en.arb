@@ -1,0 +1,21 @@
+{
+  "@@locale": "en",
+  "appTitle": "Pharmacy Finder",
+  "@appTitle": {
+    "description": "Title of the application"
+  },
+  "greeting": "Hello {name}!",
+  "@greeting": {
+    "description": "Greeting on the home screen",
+    "placeholders": {
+      "name": { "type": "String", "example": "Amina" }
+    }
+  },
+  "itemCount": "{count, plural, =0{No pharmacies} one{One pharmacy} other{{count} pharmacies}}",
+  "@itemCount": {
+    "description": "Number of pharmacies found",
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  }
+}

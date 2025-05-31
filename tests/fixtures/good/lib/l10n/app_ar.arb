@@ -1,0 +1,6 @@
+{
+  "@@locale": "ar",
+  "appTitle": "دليل الصيدليات",
+  "greeting": "مرحبًا {name}!",
+  "itemCount": "{count, plural, zero{لا توجد صيدليات} one{صيدلية واحدة} two{صيدليتان} few{{count} صيدليات} many{{count} صيدلية} other{{count} صيدلية}}"
+}

@@ -1,0 +1,18 @@
+{
+  "@@locale": "en",
+  "title": "Orders",
+  "welcome": "Welcome {user}, you have {count} orders",
+  "@welcome": {
+    "placeholders": {
+      "user": {},
+      "unused": {}
+    }
+  },
+  "cartItems": "{n, plural, one{# item} other{# items}}",
+  "@cartItems": { "placeholders": { "n": {} } },
+  "broken": "Hello {name",
+  "noOther": "{n, plural, one{x}}",
+  "neverUsed": "Never referenced in Dart",
+  "@ghost": { "description": "metadata without a message" },
+  "title": "Orders (duplicate)"
+}

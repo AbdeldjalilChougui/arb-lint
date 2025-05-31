@@ -1,0 +1,9 @@
+{
+  "@@locale": "de",
+  "title": "",
+  "welcome": "Bienvenue {user}, vous avez {count} commandes",
+  "cartItems": "{n, plural, one{# article} other{# articles}}",
+  "broken": "Bonjour",
+  "noOther": "x",
+  "neverUsed": "Jamais"
+}

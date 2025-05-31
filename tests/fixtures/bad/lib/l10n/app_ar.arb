@@ -1,0 +1,8 @@
+{
+  "@@locale": "ar",
+  "title": "Orders",
+  "welcome": "مرحبًا {usr}",
+  "cartItems": "{n, plural, one{عنصر واحد} other{# عنصر}}",
+  "neverUsed": "‫غير مستخدم",
+  "onlyHere": "مفتاح زائد"
+}

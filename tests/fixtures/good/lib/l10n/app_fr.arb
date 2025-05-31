@@ -1,0 +1,6 @@
+{
+  "@@locale": "fr",
+  "appTitle": "Trouver une pharmacie",
+  "greeting": "Bonjour {name} !",
+  "itemCount": "{count, plural, =0{Aucune pharmacie} one{Une pharmacie} other{{count} pharmacies}}"
+}
