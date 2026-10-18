@@ -1,5 +1,5 @@
 name: "ARB Lint (Flutter l10n)"
-description: "Lint Flutter ARB localization files: keys, placeholders, ICU plural/select, metadata, unused keys, RTL. Text, JSON or SARIF output."
+description: "Lint Flutter ARB l10n files: missing keys, placeholders, ICU plural/select, unused keys and RTL. SARIF output."
 author: "Abdeldjalil Chougui"
 branding:
   icon: "globe"

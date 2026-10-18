@@ -42,7 +42,7 @@ cargo install arb-lint --locked
 
 ```yaml
 - uses: actions/checkout@v5
-- uses: AbdeldjalilChougui/arb-lint@v0.1.0
+- uses: AbdeldjalilChougui/arb-lint@v0.1.1
   with:
     path: .                 # Flutter project root or a directory of .arb files
     fail-on: warning        # error (default) | warning | never
@@ -56,7 +56,7 @@ permissions:
   security-events: write
 steps:
   - uses: actions/checkout@v5
-  - uses: AbdeldjalilChougui/arb-lint@v0.1.0
+  - uses: AbdeldjalilChougui/arb-lint@v0.1.1
     with:
       format: sarif
       output: arb-lint.sarif
